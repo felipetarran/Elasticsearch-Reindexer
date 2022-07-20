@@ -12,7 +12,7 @@ for index in ${INDEXES[@]}; do
 	{
 		"source": {
 			"remote": {
-				"host": "http://${SRC_SERVER_IP}:9200"
+				"host": "http://'${SRC_SERVER_IP}':9200"
 			},
 			"index": "'$index'"
 		},
